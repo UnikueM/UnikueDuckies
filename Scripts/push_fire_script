@@ -1,0 +1,11 @@
+#!/bin/bash
+cd /tmp
+git clone https://github.com/UnikueM/UnikueDuckies
+cd UnikueDuckies
+touch fire.txt
+echo "fire" > fire.txt
+git add fire.txt
+git commit -m "fire"
+git push
+cd ..
+rm -rf UnikueDuckies
